@@ -1,13 +1,23 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+:root{
+  --primary: #ef2828;
+  --dark: #363434;
+  --light: #eee;
+  --font: 'Rajdhani';
+  --card: #1c1c1c;
+  --shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1PX 2px rgba(0,0,0,0.24);
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: var(--dark);
+  font-family: var(--font);
+  color: var(--light);
 }
